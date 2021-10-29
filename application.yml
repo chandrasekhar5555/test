@@ -8,8 +8,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
       
-      
-      
-microservice.payment.endpoints=testing    
+     
+microservice :
+      payment :
+       endpoints: testing 
    
    
